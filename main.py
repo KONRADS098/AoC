@@ -18,19 +18,8 @@ def main():
             print(f"{folder_name.capitalize()} - Part 1: {part_1}")
             part_2 = solution.part2()
             print(f"{folder_name.capitalize()} - Part 2: {part_2}")
+            print("===============================================")
 
 
 if __name__ == "__main__":
     main()
-
-
-# def main():
-#     solution = Day1Solution()
-#     part_1 = solution.part1()
-#     print(f"Part 1: {part_1}")
-#     part_2 = solution.part2()
-#     print(f"Part 2: {part_2}")
-
-
-# if __name__ == "__main__":
-#     main()
