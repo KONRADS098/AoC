@@ -2,9 +2,8 @@ import os
 
 
 def main():
-    # get the parent directory of the current file
-    aoc_folder = os.path.dirname(os.path.abspath(__file__))
-    
+    aoc_folder = "/Users/koski/Developer/Personal/aoc/aoc2023"
+
     for folder_name in reversed(os.listdir(aoc_folder)):
         folder_path = os.path.join(aoc_folder, folder_name)
         print(f"Checking {folder_path}")
